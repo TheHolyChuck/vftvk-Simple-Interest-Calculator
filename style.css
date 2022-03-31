@@ -34,8 +34,13 @@ body
     width: 350px;
     padding: 10px 0;
 }
-/*to clear inout field names*/
-.maindiv footer, .maindiv button
+/*to clear input field names*/
+.maindiv footer
+{
+    clear: left;
+    padding-left: 16px;
+}
+.maindiv button
 {
     clear: left;
 }
