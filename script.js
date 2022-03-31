@@ -19,6 +19,7 @@ function compute()
     else
     {
         alert("Enter a positive number");
+        document.getElementById("principal").focus();
     }
 }
 
