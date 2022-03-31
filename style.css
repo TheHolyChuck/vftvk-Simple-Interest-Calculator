@@ -1,19 +1,58 @@
-body {
+/*Main background*/
+body 
+{
     background-color:black; 
     font-family: Arial, sans-serif; 
     color: white;
 }
-
-h1 {
+/*Main title*/
+.maindiv h1 
+{
     color:gray;
     font-family: Verdana, sans-serif;
+    text-align: center;
 }
-
-.maindiv {
+/*Input field names*/
+.maindiv p
+{
+    width: 100px;
+    float: left;
+    margin: 0 1px auto 0;
+    padding-right: 50px;
+}
+/*Form*/
+.maindiv div
+{
+    width: 375px;
+    margin: auto;
+    line-height: 2;
+}
+/*Result text*/
+.maindiv #result
+{
+    line-height: 1.2;
+    width: 350px;
+    padding: 10px 0;
+}
+/*to clear inout field names*/
+.maindiv footer, .maindiv button
+{
+    clear: left;
+}
+/*General content*/
+.maindiv 
+{
     background-color: white;
     color: black;
-    width: 300px;
+    width: 500px;
     padding: 20px;
-    border-radius: 25 px;
-    align-self: center;
+    border-radius: 25px;
+    margin: auto;
+    text-align: left;
 }
+/*to highlight values in result*/
+.highlight
+{
+    background-color: yellow;
+}
+
