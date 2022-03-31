@@ -51,6 +51,7 @@ body
     color: black;
     width: 500px;
     padding: 20px;
+    padding-top: 5px;
     border-radius: 25px;
     margin: auto;
     text-align: left;
